@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>颜色生成器 & 短链接工具</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>颜色生成器 & 短链接工具</h1>
+        <p>一个简单实用的工具组合，方便您的日常工作</p>
+    </header>
+    
+    <main>
+        <section class="tool-container" id="color-generator">
+            <h2>颜色生成器</h2>
+            <div class="color-controls">
+                <div class="color-display" id="colorDisplay">#FFFFFF</div>
+                <div class="controls">
+                    <button id="generateRandomColor">随机生成</button>
+                    <div class="slider-container">
+                        <label for="redSlider">红 (R):</label>
+                        <input type="range" id="redSlider" min="0" max="255" value="255">
+                        <span id="redValue">255</span>
+                    </div>
+                    <div class="slider-container">
+                        <label for="greenSlider">绿 (G):</label>
+                        <input type="range" id="greenSlider" min="0" max="255" value="255">
+                        <span id="greenValue">255</span>
+                    </div>
+                    <div class="slider-container">
+                        <label for="blueSlider">蓝 (B):</label>
+                        <input type="range" id="blueSlider" min="0" max="255" value="255">
+                        <span id="blueValue">255</span>
+                    </div>
+                </div>
+                <div class="color-history">
+                    <h3>颜色历史</h3>
+                    <div id="colorHistory" class="color-chips"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tool-container" id="url-shortener">
+            <h2>短链接工具</h2>
+            <div class="url-controls">
+                <input type="text" id="originalUrl" placeholder="输入需要缩短的URL..." class="url-input">
+                <button id="shortenUrl">生成短链接</button>
+                <div class="result-container">
+                    <input type="text" id="shortenedUrl" readonly class="url-result">
+                    <button id="copyUrl">复制</button>
+                </div>
+                <div class="url-history">
+                    <h3>历史记录</h3>
+                    <ul id="urlHistory"></ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 颜色生成器 & 短链接工具</p>
+        <div class="deploy-button">
+            <a href="https://edgeone.ai/pages/new?repository-url=https%3A%2F%2Fgithub.com%2Fyour-username%2Fcolor-link-tool" target="_blank">
+                <img src="https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg" alt="使用 EdgeOne Pages 部署">
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 

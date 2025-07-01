@@ -1,0 +1,10 @@
+{
+  "name": "color-link-tool",
+  "version": "1.0.0",
+  "buildCommand": null,
+  "installCommand": null,
+  "outputDirectory": "./",
+  "framework": "static",
+  "public": true,
+  "env": {}
+} 
