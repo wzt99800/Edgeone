@@ -2,7 +2,7 @@
 
 一个简单实用的二合一工具，集成了颜色生成器和短链接功能。使用纯HTML、CSS和JavaScript构建，无需后端服务器即可部署。
 
-[![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https%3A%2F%2Fgithub.com%2Fwzt99800%2Fcolor-link-tool&project-name=color-link-tool&output-directory=.%2F)
+[![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https%3A%2F%2Fgithub.com%2Fwzt99800%2FEdgeone&project-name=Edgeone&output-directory=.%2F)
 
 ## 功能特点
 
@@ -30,8 +30,8 @@
 克隆仓库后，只需在浏览器中打开index.html文件即可运行项目。无需安装任何依赖或运行构建脚本。
 
 ```bash
-git clone https://github.com/wzt99800/color-link-tool.git
-cd color-link-tool
+git clone https://github.com/wzt99800/Edgeone.git
+cd Edgeone
 # 在浏览器中打开index.html
 ```
 
